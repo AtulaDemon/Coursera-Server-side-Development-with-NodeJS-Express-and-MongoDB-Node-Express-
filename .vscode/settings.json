@@ -1,0 +1,13 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}",
+        ".env",
+        "test{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "appService.defaultWebAppToDeploy": "/subscriptions/ec45f94b-f303-49e2-a6c1-fdae9b281844/resourceGroups/express-2/providers/Microsoft.Web/sites/node-express-3"
+}
